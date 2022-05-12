@@ -1,2 +1,5 @@
 admin_backend/node_modules
 main_backend/node_modules
+
+admin_backend/dist/
+main_backend/dist/
