@@ -1,0 +1,1 @@
+export const MAIN_PRODUCT_QUEUE = 'MAIN_PRODUCT_QUEUE';

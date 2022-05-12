@@ -52,4 +52,11 @@ export class ProductService {
       throw new NotFoundException(`Product with id ${id} not found`);
     }
   }
+
+  async updateLikes(
+    id: string,
+    updateProductDto: Pick<UpdateProductDto, 'likes'>,
+  ): Promise<Product> {
+    return this.productRepository.save({ ...updateProductDto, id: id });
+  }
 }
