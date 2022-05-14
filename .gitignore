@@ -3,3 +3,5 @@ main_backend/node_modules
 
 admin_backend/dist
 main_backend/dist
+
+front_admin/node_modules

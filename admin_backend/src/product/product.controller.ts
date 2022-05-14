@@ -69,8 +69,6 @@ export class ProductController {
     @Param('id') id: string,
     @Body('likes') likes: number,
   ): Promise<Product> {
-    console.log('id: ', id);
-    console.log('likes: ', likes);
     const result = await this.productService.updateLikes(id, { likes });
 
     return result;
